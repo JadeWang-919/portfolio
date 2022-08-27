@@ -1,0 +1,174 @@
+/*****************************/
+/* GENERAL REUSEABLE COMPONENTS*/
+/*****************************/
+
+.cover-img {
+  width: 100%;
+}
+
+.case-name {
+  font-size: 4.4rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.sub-names {
+  text-align: left;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 2.8rem;
+}
+
+.sub-name {
+  font-family: "Sarabun", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+
+  text-decoration: underline;
+  color: #333;
+}
+
+p {
+  font-family: "Sarabun", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.under-sub-name {
+  color: #333;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  text-align: left;
+  margin: 8rem 10rem 16rem 10rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  border-bottom: 2px solid #666;
+}
+
+.text {
+  line-height: 1.5;
+}
+
+.big-text {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.icon {
+  font-size: 3.2rem;
+}
+
+.icon-text {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 1.6rem;
+}
+
+.designs {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.design {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.lists {
+  margin-left: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.list {
+  font-family: "Sarabun", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.final-img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.prototype:link,
+.prototype:visited {
+  display: inline-block;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #333;
+  padding: 0.4rem 2.8rem;
+  border-radius: 20px;
+  border: 2px solid #333;
+  background-color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.prototype:hover,
+.prototype:active {
+  background-color: #bef8fa;
+  border: 2px solid #bef3fa;
+}
+/*****************************/
+/* MHP*/
+/*****************************/
+
+.competitive-analysis {
+  width: 100%;
+}
+
+.persona {
+  width: 72%;
+  margin: 0 auto;
+}
+
+.pain-points {
+  width: 62%;
+}
+
+.solution {
+  width: 55%;
+  margin: 2rem auto 0 auto;
+}
+
+.wireframes {
+  width: 75%;
+  margin: 0.8rem auto 0 auto;
+}
+
+.task-img {
+  width: 64%;
+  margin: 3.2rem auto 0 auto;
+}
+
+.feedback-img {
+  width: 64%;
+  margin: 1.2rem auto 2rem auto;
+}
