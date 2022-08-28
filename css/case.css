@@ -172,3 +172,54 @@ h2 {
   width: 64%;
   margin: 1.2rem auto 2rem auto;
 }
+
+/* Nan Nan */
+.big-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.reference {
+  width: 100%;
+}
+
+.iteration {
+  width: 90%;
+}
+
+.character-iteration {
+  width: 60%;
+}
+
+.final {
+  width: 80%;
+}
+
+.nannan-final{
+  width:100%;
+}
+
+.other-final {
+  grid-column: 1/-1;
+}
+
+.illu {
+  width: 80%;
+}
+
+.prop {
+  width: 30%;
+}
+
+/* 3D */
+.husky-reference{
+  width: 70%;
+}
+
+.modeling{
+  width: 70%;
+}
+
+.storyboard{
+  width: 100%;
+}

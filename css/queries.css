@@ -28,6 +28,17 @@
   .pain-points {
     width: 75%;
   }
+
+  .profile {
+    width: 90%;
+    border-radius: 2%;
+  }
+
+  .self-intro {
+    gap: 1rem;
+  }
+
+
 }
 
 /* BELOW 944px */
@@ -68,6 +79,17 @@
   .designs {
     gap: 6rem;
   }
+
+  .profile {
+    width: 95%;
+    border-radius: 2%;
+  }
+
+  .self-intro,.things-I-like{
+    margin-left: 4.8rem;
+    margin-right: 4.8rem;
+  }
+
 }
 
 /* BELOW 704px */
@@ -151,6 +173,11 @@
 
   .case-name {
     font-size: 3.6rem;
+  }
+
+  .self-intro {
+    grid-template-columns: 1fr;
+    gap: 4rem;
   }
 
   /* MOBILE NAVIGATION */

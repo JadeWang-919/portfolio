@@ -62,6 +62,10 @@ footer {
 /* GENERAL REUSEABLE COMPONENTS*/
 /*****************************/
 
+.margin-top{
+  margin-top: 18rem;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 6rem;
