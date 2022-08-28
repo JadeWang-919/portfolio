@@ -195,8 +195,8 @@ h2 {
   width: 80%;
 }
 
-.nannan-final{
-  width:100%;
+.nannan-final {
+  width: 100%;
 }
 
 .other-final {
@@ -204,7 +204,11 @@ h2 {
 }
 
 .illu {
-  width: 80%;
+  width: 100%;
+}
+
+.illu3 {
+  margin-top: 2.8rem;
 }
 
 .prop {
@@ -212,14 +216,14 @@ h2 {
 }
 
 /* 3D */
-.husky-reference{
+.husky-reference {
   width: 70%;
 }
 
-.modeling{
-  width: 70%;
+.modeling {
+  width: 100%;
 }
 
-.storyboard{
+.storyboard {
   width: 100%;
 }
