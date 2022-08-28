@@ -38,7 +38,9 @@
     gap: 1rem;
   }
 
-
+  .illu3 {
+    margin-top: 3.8rem;
+  }
 }
 
 /* BELOW 944px */
@@ -126,6 +128,10 @@
   .solution {
     width: 75%;
   }
+
+  .illu3 {
+    margin-top: 3rem;
+  }
 }
 
 /* BELOW 550px */
@@ -178,6 +184,10 @@
   .self-intro {
     grid-template-columns: 1fr;
     gap: 4rem;
+  }
+
+  .illu3 {
+    margin-top: 2.2rem;
   }
 
   /* MOBILE NAVIGATION */
