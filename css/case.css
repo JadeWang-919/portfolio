@@ -216,6 +216,12 @@ h2 {
 }
 
 /* 3D */
+#video{
+  width: 80%;
+  height: 48rem;
+  margin: 0 auto;
+}
+
 .husky-reference {
   width: 70%;
 }

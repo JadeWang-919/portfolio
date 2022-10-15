@@ -24,7 +24,7 @@
   .persona {
     width: 80%;
   }
-  
+
   .pain-points {
     width: 75%;
   }
@@ -40,6 +40,10 @@
 
   .illu3 {
     margin-top: 3.8rem;
+  }
+
+  #video {
+    width: 90%;
   }
 }
 
@@ -65,7 +69,7 @@
   .persona {
     width: 82%;
   }
-  
+
   .pain-points {
     width: 80%;
   }
@@ -87,7 +91,8 @@
     border-radius: 2%;
   }
 
-  .self-intro,.things-I-like{
+  .self-intro,
+  .things-I-like {
     margin-left: 4.8rem;
     margin-right: 4.8rem;
   }
@@ -112,7 +117,7 @@
   .persona {
     width: 90%;
   }
-  
+
   .pain-points {
     width: 90%;
   }
@@ -131,6 +136,10 @@
 
   .illu3 {
     margin-top: 3rem;
+  }
+
+  #video {
+    width: 100%;
   }
 }
 
@@ -160,7 +169,7 @@
   .persona {
     width: 100%;
   }
-  
+
   .pain-points {
     width: 100%;
   }
@@ -206,7 +215,6 @@
     width: 100%;
     height: 100vh;
     transform: translateX(100%);
-   
 
     display: flex;
     align-items: center;
