@@ -1,7 +1,6 @@
 /*****************************/
 /* GENERAL REUSEABLE COMPONENTS*/
 /*****************************/
-
 .cover-img {
   width: 100%;
 }
@@ -136,6 +135,27 @@ h2 {
   background-color: #bef8fa;
   border: 2px solid #bef3fa;
 }
+
+/*****************************/
+/* CSP*/
+/*****************************/
+
+.CSP-link:link,
+.CSP-link:visited {
+  color: rgb(1, 135, 135);
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.CSP-link:hover,
+.CSP-link:active {
+  color: rgb(0, 182, 199);
+}
+
+.center{
+  text-align: center;
+}
+
 /*****************************/
 /* MHP*/
 /*****************************/
@@ -216,7 +236,7 @@ h2 {
 }
 
 /* 3D */
-#video{
+#video {
   width: 80%;
   height: 48rem;
   margin: 0 auto;
