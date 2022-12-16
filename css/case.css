@@ -156,6 +156,21 @@ h2 {
   text-align: center;
 }
 
+.scotty{
+  width: 25%;
+  margin: 0 auto;
+}
+
+.primary-color{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.secondary-color{
+  width: 40%;
+  margin: 0 auto;
+}
+
 /*****************************/
 /* MHP*/
 /*****************************/

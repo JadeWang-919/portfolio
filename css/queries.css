@@ -141,6 +141,18 @@
   #video {
     width: 100%;
   }
+
+  .scotty{
+    width: 35%;
+  }
+  
+  .primary-color{
+    width: 60%;
+  }
+  
+  .secondary-color{
+    width: 50%;
+  }
 }
 
 /* BELOW 550px */
@@ -197,6 +209,18 @@
 
   .illu3 {
     margin-top: 2.2rem;
+  }
+
+  .scotty{
+    width: 40%;
+  }
+  
+  .primary-color{
+    width: 80%;
+  }
+  
+  .secondary-color{
+    width: 70%;
   }
 
   /* MOBILE NAVIGATION */
