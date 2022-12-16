@@ -102,9 +102,6 @@
 /* BELOW 704px */
 
 @media (max-width: 44em) {
-  html {
-    font-size: 43.75%;
-  }
 
   .sections {
     margin: 8rem 0rem 16rem 0rem;
@@ -158,9 +155,6 @@
 /* BELOW 550px */
 
 @media (max-width: 34em) {
-  html {
-    font-size: 37.5%;
-  }
 
   .container {
     padding: 0 4rem;
