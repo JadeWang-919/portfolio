@@ -9,6 +9,10 @@
     margin: 8rem 8rem 16rem 8rem;
   }
 
+  .container {
+    padding: 0 8rem;
+  }
+
   .wireframes {
     width: 80%;
   }
@@ -55,7 +59,12 @@
   }
 
   .sections {
-    margin: 8rem 4rem 16rem 4rem;
+    margin: 4rem 4rem 16rem 4rem;
+  }
+
+  .container {
+    padding: 0 4rem;
+    gap: 6rem;
   }
 
   .final-img {
@@ -97,8 +106,12 @@
     margin-right: 4.8rem;
   }
 
-  .testing-img{
+  .testing-img {
     width: 65%;
+  }
+
+  .project-button {
+    width: 60%;
   }
 }
 
@@ -106,7 +119,7 @@
 
 @media (max-width: 44em) {
   .sections {
-    margin: 8rem 0rem 16rem 0rem;
+    margin: 4rem 0rem 16rem 0rem;
   }
 
   .final-img {
@@ -153,8 +166,20 @@
     width: 50%;
   }
 
-  .testing-img{
+  .testing-img {
     width: 75%;
+  }
+
+  .project-button {
+    width: 24%;
+  }
+
+  .project-description {
+    gap: 2.4rem;
+  }
+
+  .grid {
+    gap: 3.2rem 2rem;
   }
 }
 
@@ -163,6 +188,7 @@
 @media (max-width: 34em) {
   .container {
     padding: 0 2.2rem;
+    gap: 8rem;
   }
 
   .header {
@@ -281,5 +307,15 @@
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 3rem;
+  }
+
+  .project-button:link,
+  .project-button:visited {
+    font-size: 1.8rem;
+    width: 40%;
+  }
+
+  .tag {
+    font-size: 1.8rem;
   }
 }

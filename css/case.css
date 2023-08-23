@@ -9,11 +9,11 @@
   font-size: 4.4rem;
   font-weight: 400;
   margin-top: 2rem;
+  text-align: center;
 }
 
 .sub-names {
   text-align: left;
-  justify-self: center;
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
@@ -152,27 +152,27 @@ h2 {
   color: rgb(0, 182, 199);
 }
 
-.center{
+.center {
   text-align: center;
 }
 
-.scotty{
+.scotty {
   width: 25%;
   margin: 0 auto;
 }
 
-.testing-img{
+.testing-img {
   width: 45%;
   margin: 2rem auto;
   border-radius: 2px;
 }
 
-.primary-color{
+.primary-color {
   width: 50%;
   margin: 0 auto;
 }
 
-.secondary-color{
+.secondary-color {
   width: 40%;
   margin: 0 auto;
 }
