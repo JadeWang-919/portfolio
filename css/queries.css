@@ -21,10 +21,6 @@
     width: 65%;
   }
 
-  .persona {
-    width: 80%;
-  }
-
   .pain-points {
     width: 75%;
   }
@@ -68,7 +64,7 @@
   }
 
   .persona {
-    width: 82%;
+    width: 86%;
   }
 
   .pain-points {
@@ -100,6 +96,10 @@
 
   .final-img {
     width: 100%;
+  }
+
+  .prototypes{
+    width:100%
   }
 }
 
