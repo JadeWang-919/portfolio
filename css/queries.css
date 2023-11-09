@@ -5,20 +5,8 @@
     font-size: 56.25%;
   }
 
-  .sections {
-    margin: 8rem 8rem 16rem 8rem;
-  }
-
-  .container {
-    padding: 0 8rem;
-  }
-
   .wireframes {
     width: 100%;
-  }
-
-  .solution {
-    width: 65%;
   }
 
   .pain-points {
@@ -54,13 +42,13 @@
     font-size: 50%;
   }
 
-  .sections {
-    margin: 4rem 4rem 16rem 4rem;
+  .container {
+    padding: 8rem 12rem 12rem 12rem;
+    gap: 6rem;
   }
 
-  .container {
-    padding: 0 4rem;
-    gap: 6rem;
+  .header{
+    padding:4rem 12rem
   }
 
   .persona {
@@ -69,10 +57,6 @@
 
   .pain-points {
     width: 80%;
-  }
-
-  .solution {
-    width: 70%;
   }
 
   .grid {
@@ -106,9 +90,6 @@
 /* BELOW 704px */
 
 @media (max-width: 44em) {
-  .sections {
-    margin: 4rem 0rem 16rem 0rem;
-  }
 
   .persona {
     width: 90%;
@@ -132,10 +113,6 @@
 
   .new-order-img {
     order: 1;
-  }
-
-  .solution {
-    width: 75%;
   }
 
   .illu3 {
@@ -177,60 +154,6 @@
   .prop {
     width: 80%;
   }
-}
-
-/* BELOW 550px */
-
-@media (max-width: 34em) {
-  .container {
-    padding: 0 2.2rem;
-    gap: 8rem;
-  }
-
-  .header {
-    padding: 0 2.2rem;
-  }
-
-  .hero {
-    padding: 0 6rem;
-  }
-
-  .persona {
-    width: 100%;
-  }
-
-  .pain-points {
-    width: 100%;
-  }
-
-  .solution {
-    width: 80%;
-  }
-
-  .case-name {
-    font-size: 3.6rem;
-  }
-
-  .self-intro {
-    grid-template-columns: 1fr;
-    gap: 4rem;
-  }
-
-  .illu3 {
-    margin-top: 2.2rem;
-  }
-
-  .scotty {
-    width: 40%;
-  }
-
-  .primary-color {
-    width: 80%;
-  }
-
-  .secondary-color {
-    width: 70%;
-  }
 
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
@@ -239,7 +162,7 @@
   }
 
   .main-nav {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(10px);
     position: absolute;
@@ -297,6 +220,56 @@
   .project-button:visited {
     font-size: 1.8rem;
     width: 40%;
+  }
+}
+
+/* BELOW 550px */
+
+@media (max-width: 34em) {
+
+  .container {
+    padding: 8rem 4rem 6rem 4rem;
+  }
+
+  .header{
+    padding: 4rem;
+  }
+
+  .hero {
+    padding: 0 6rem;
+  }
+
+  .persona {
+    width: 100%;
+  }
+
+  .pain-points {
+    width: 100%;
+  }
+
+  .case-name {
+    font-size: 3.6rem;
+  }
+
+  .self-intro {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .illu3 {
+    margin-top: 2.2rem;
+  }
+
+  .scotty {
+    width: 40%;
+  }
+
+  .primary-color {
+    width: 80%;
+  }
+
+  .secondary-color {
+    width: 70%;
   }
 
   .tag {
