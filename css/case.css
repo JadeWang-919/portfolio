@@ -333,3 +333,17 @@ h2 {
 .storyboard {
   width: 100%;
 }
+
+/* Cooking Manual */
+.crop-container {
+  width: 100%; /* Set the desired width */
+  overflow: hidden;
+  border: 0.2rem solid #6c4290; /* Set border properties as needed */
+  border-radius: 5px;
+}
+
+.cook-gif{
+  width:100%;
+  margin-left: -1px;
+  margin-bottom: -3px;
+}
