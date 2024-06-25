@@ -33,6 +33,10 @@
   .final-img {
     width: 100%;
   }
+
+  .sm-competitive-analysis {
+    width: 85%;
+  }
 }
 
 /* BELOW 944px */
@@ -47,8 +51,8 @@
     gap: 6rem;
   }
 
-  .header{
-    padding:4rem 12rem
+  .header {
+    padding: 4rem 12rem;
   }
 
   .persona {
@@ -82,15 +86,14 @@
     width: 100%;
   }
 
-  .prototypes{
-    width:100%
+  .prototypes {
+    width: 100%;
   }
 }
 
 /* BELOW 704px */
 
 @media (max-width: 44em) {
-
   .persona {
     width: 90%;
   }
@@ -221,17 +224,20 @@
     font-size: 1.8rem;
     width: 40%;
   }
+
+  .quotes-gif {
+    width: 90%;
+  }
 }
 
 /* BELOW 550px */
 
 @media (max-width: 34em) {
-
   .container {
     padding: 8rem 4rem 6rem 4rem;
   }
 
-  .header{
+  .header {
     padding: 4rem;
   }
 
@@ -279,5 +285,9 @@
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+  }
+
+  .quotes-gif {
+    width: 100%;
   }
 }
