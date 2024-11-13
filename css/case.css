@@ -232,6 +232,11 @@ h2 {
   width: 62%;
 }
 
+.solution {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .wireframes {
   width: 75%;
   margin: 0.8rem auto 0 auto;
