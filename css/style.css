@@ -26,6 +26,10 @@ footer {
   margin-bottom: 4rem;
 }
 
+strong {
+  color: #f56e56;
+}
+
 /*****************************/
 /* GENERAL REUSEABLE COMPONENTS*/
 /*****************************/
