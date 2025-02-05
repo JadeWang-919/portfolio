@@ -358,7 +358,7 @@ h2 {
   width: 100%; /* Increase width to zoom in */
   object-fit: cover; /* Crop out black edges */
   object-position: center;
-  transform: scale(1.005); /* Further zoom in to remove edges */
+  transform: scale(1.008); /* Further zoom in to remove edges */
 }
 
 /* Cooking Manual */
