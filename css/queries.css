@@ -51,12 +51,12 @@
   }
 
   .container {
-    padding: 8rem 12rem 12rem 12rem;
+    padding: 8rem 10rem 12rem 10rem;
     gap: 6rem;
   }
 
   .header {
-    padding: 4rem 8rem;
+    padding: 4rem 10rem;
   }
 
   .persona {
@@ -124,7 +124,7 @@
 
   .grid--3-cols {
     grid-template-columns: 1fr;
-    margin: 0 3rem 8rem 3rem;
+    margin: 0 4rem 8rem 4rem;
   }
 
   .new-order-img {
@@ -251,7 +251,7 @@
   }
 
   .header {
-    padding: 2rem;
+    padding: 4rem;
   }
 
   .hero {
