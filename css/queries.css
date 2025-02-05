@@ -37,6 +37,10 @@
   .sm-competitive-analysis {
     width: 85%;
   }
+
+  .cgc-crop-container {
+    width: 100%;
+  }
 }
 
 /* BELOW 944px */
@@ -52,7 +56,7 @@
   }
 
   .header {
-    padding: 4rem 12rem;
+    padding: 4rem 8rem;
   }
 
   .persona {
@@ -65,6 +69,10 @@
 
   .grid {
     gap: 6rem 4rem;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr 1fr;
   }
 
   .profile {
@@ -114,6 +122,11 @@
     grid-template-columns: 1fr;
   }
 
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+    margin: 0 3rem 8rem 3rem;
+  }
+
   .new-order-img {
     order: 1;
   }
@@ -143,7 +156,7 @@
   }
 
   .project-description {
-    gap: 2.4rem;
+    gap: 2rem;
   }
 
   .grid {
@@ -238,7 +251,7 @@
   }
 
   .header {
-    padding: 4rem;
+    padding: 2rem;
   }
 
   .hero {

@@ -342,6 +342,25 @@ h2 {
   width: 100%;
 }
 
+/* CGC */
+.cgc-crop-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  margin: 2rem auto 0 auto;
+}
+
+.cgc-gif {
+  width: 100%; /* Increase width to zoom in */
+  object-fit: cover; /* Crop out black edges */
+  object-position: center;
+  transform: scale(1.005); /* Further zoom in to remove edges */
+}
+
 /* Cooking Manual */
 .crop-container {
   width: 100%; /* Set the desired width */
