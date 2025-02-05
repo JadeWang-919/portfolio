@@ -125,7 +125,7 @@
 
   .grid--3-cols {
     grid-template-columns: 1fr;
-    margin: 0 4rem 8rem 4rem;
+    margin: 0 4rem 12rem 4rem;
   }
 
   .new-order-img {
