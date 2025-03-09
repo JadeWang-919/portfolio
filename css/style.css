@@ -244,3 +244,59 @@ strong {
 .project-button {
   width: 50%;
 }
+
+/* Testimonial */
+.wrapper {
+  width: 80%;
+  height: 200px;
+  display: table;
+  border: 5px solid #f56e56;
+  margin: 50px auto;
+  padding: 20px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.wrapper:after,
+.wrapper:before {
+  content: "";
+  position: absolute;
+  font-family: "FontAwesome";
+  font-size: 50px;
+  color: #f56e56;
+  background: #fff;
+}
+
+.wrapper:after {
+  content: "\f10d";
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 0 #fff;
+}
+
+.wrapper:before {
+  content: "\f10e";
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+  box-shadow: -10px -10px 0 #fff;
+}
+
+.wrapper-title,
+.description {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.description {
+  width: 60%;
+}
+
+.wrapper-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 20px 0 0;
+}
