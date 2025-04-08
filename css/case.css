@@ -154,10 +154,21 @@ h2 {
   border: 2px solid #bef3fa;
 }
 
-.gif-vertical {
-  margin: 0 auto;
+.video-wrapper {
+  width: fit-content;
   height: 60rem;
+  overflow: hidden;
   border-radius: 2%;
+  margin: 0 auto;
+}
+
+.gif-vertical {
+  height: 101%;
+  margin-top: -0.8%;
+  margin-left: -0.4%;
+  width: 101%;
+  object-fit: fill;
+  display: block;
 }
 
 .gif-horizontal {
@@ -165,6 +176,7 @@ h2 {
   width: 100%;
   border-radius: 2%;
 }
+
 /*****************************/
 /* CSP*/
 /*****************************/
